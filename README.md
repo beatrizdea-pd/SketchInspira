@@ -26,19 +26,36 @@ Com esse app, você acelera o desenvolvimento de produtos, explora mais ideias e
 
 Esse guia assume que você está familiarizado com o uso de algum console e que fez o clone do projeto em seu computador. Uma vez feito isso, navegue para a pasta do projeto e execute os passos abaixo.
 
-# **1 - Crie uma conta gratuita do Google Collab**
+## **1 - Crie uma conta gratuita do Google Collab**
 
 Entre na plataforma gratuita do Google Collab (https://colab.research.google.com/), abra um notebook novo e importe o código.
 
-# **2 - Adicione uma chave de API do Google AI**
+## **2 - Adicione uma chave de API do Google AI**
 
-Para que sistema funcione corretamente, é necessário uma chave de API do Google AI Studio que pode ser obtida em https://aistudio.google.com/app/apikey. Uma vez obtida a chave, adicione sua key substituindo "SECRE_KEY" com a sua key nessa parte do código:
+Para que sistema funcione corretamente, é necessário uma chave de API do Google AI Studio que pode ser obtida em https://aistudio.google.com/app/apikey. Uma vez obtida a chave, adicione sua key substituindo "SECRET_KEY" com a sua key nessa parte do código:
 
+```
 #Configuração para uso da API KEY
 
-API_KEY = userdata.get("**SECRET_KEY**")
+API_KEY = userdata.get("SECRET_KEY")
 
 genai.configure(api_key=API_KEY)
+```
+
+## **3 - Acesse o sistema e de start em ordem das box de configurações.**
+
+Para que sistema funcione corretamente, é necessário dar início em cada box em ordem:
+
+```
+#Instalação do Google Generative AI
+#Importação das bibliotecas utilizadas
+#Configuração para uso da API KEY
+#Configuração do modelo
+#Configuração dos filtros.
+#Definindo modelo que será utilizado
+#Upload do sketch escolhido
+#Prompt
+```
 
 ---
 
@@ -168,23 +185,27 @@ A Luminary Grip será a escolha definitiva para quem busca uma lanterna robusta,
 
 #  **🧠 Em Desenvolvimento 🧠** 
 
-✅  Construção do Planejamento de Projeto e uma lista de tarefas a serem concluídas.
+### SketchInspira v1
 
-✅  Construção e estudo do código para Instalação do Google Generative AI.
+- :white_check_mark:  Construção do Planejamento de Projeto e uma lista de tarefas a serem concluídas.
 
-✅  Construção e estudo do código para Importação das bibliotecas utilizadas.
+- :white_check_mark:   Construção e estudo do código para Instalação do Google Generative AI.
 
-✅  Construção e estudo do código para Configuração para uso da API KEY.
+- :white_check_mark:   Construção e estudo do código para Importação das bibliotecas utilizadas.
 
-✅  Construção e estudo do código para Configuração do modelo (temperatura e número de respostas).
+- :white_check_mark:   Construção e estudo do código para Configuração para uso da API KEY.
 
-✅  Construção e estudo do código para Configuração dos filtros.
+- :white_check_mark:   Construção e estudo do código para Configuração do modelo (temperatura e número de respostas).
 
-✅  Construção e estudo do código para Definindo modelo que será utilizado (Gemini 1.5 Pro Latest).
+- :white_check_mark:   Construção e estudo do código para Configuração dos filtros.
 
-✅  Construção e estudo do código para Upload de sketchs.
+- :white_check_mark:   Construção e estudo do código para Definindo modelo que será utilizado (Gemini 1.5 Pro Latest).
 
-✅  Construção e estudo do código para Prompt para a criação de um briefing de projeto de produto à partir da analise da imagem.
+- :white_check_mark:   Construção e estudo do código para Upload de sketchs.
+
+- :white_check_mark:   Construção e estudo do código para Prompt para a criação de um briefing de projeto de produto à partir da analise da imagem.
+
+### SketchInspira v2
 
 💭  Construção e estudo do código para Promp de chat que reconhece um texto, analisa e gera um briefing completo de projeto de produto/design industrial, incluindo tendências do mercado, fontes de inspiração, palavras-chave, autores relevantes e produtos similares.
 
