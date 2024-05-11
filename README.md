@@ -73,30 +73,45 @@ Revolucione o seu processo de design com o SketchInspire e:
 
 Objetivo: Analisar uma imagem e gerar um briefing completo de projeto de design de produto/design industrial com base na inteligência artificial Gemini 1.5 Pro do Google AI Studio.
 
-**Passo 1: Carregar Imagem**
+## **Passo 1: Carregar Imagem**
 
 Carregue a imagem que representa o produto ou ideia que você deseja analisar.
+
 Formatos Suportados: JPEG, PNG, GIF (máximo 10MB).
+
 Orientação: A imagem pode ser horizontal ou vertical.
+
 Qualidade: Utilize uma imagem com boa resolução e iluminação adequada para facilitar a análise.
 
-**Passo 2: Análise Avançada**
+
+## **Passo 2: Análise Avançada**
 
 Descrição: O Gemini 1.5 Pro deve realizar uma análise profunda da imagem, utilizando técnicas de processamento de linguagem natural (PLN) e visão computacional para identificar:
+
 Elementos visuais: Formas, cores, texturas, padrões, proporções, materiais, etc.
+
 Contexto: Ambiente, uso previsto do produto, público-alvo, etc.
+
 Funcionalidades: Funções principais e secundárias do produto, interações com o usuário, etc.
+
 Estética: Estilo visual geral, tendências de design, etc.
 
-**Passo 3: Geração de Briefing Detalhado**
+## **Passo 3: Geração de Briefing Detalhado**
 
 Com base na análise da imagem, o Gemini 1.5 Pro deve gerar um briefing completo de projeto de design de produto/design industrial que inclua:
+
 Conceito: Descrição da essência do produto, sua proposta de valor e o problema que ele resolve.
+
 Público-Alvo: Definição do público-alvo principal e secundário, suas necessidades, desejos e expectativas.
+
 Objetivo Geral: Especificação do objetivo principal do projeto de design.
+
 Requisitos de Design: Detalhes sobre os aspectos funcionais e estéticos do produto, incluindo ergonomia, usabilidade, materiais, cores, estilo visual, etc.
+
 Requisitos Não Funcionais: Especificações sobre aspectos não funcionais do produto, como segurança, confiabilidade, sustentabilidade, etc.
+
 Requisitos Funcionais: Descrição detalhada das funcionalidades do produto, incluindo interações com o usuário, fluxos de trabalho, etc.
+
 
 ---
 
